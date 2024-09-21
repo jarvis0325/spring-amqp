@@ -7,6 +7,6 @@ step:
 1.透過docker啟動 RabbitMQ
 docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:management
 
-2. 啟動 amqp-server , 並透過 REPLY_TO 動態回傳Queue
+2.啟動 amqp-server , 並透過 REPLY_TO 動態回傳Queue
 
-3. run test amqp-client  ApplicationTests
+3.run test amqp-client  ApplicationTests
