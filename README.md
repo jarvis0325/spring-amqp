@@ -1,6 +1,6 @@
 # spring-amqp
 
-此為 spring boot 搭配 RabbitMQ 走 RPC模式 
+此為 spring boot 搭配 RabbitMQ 走 RPC模式 , 多個client分別監聽各自的  REPLY Queue , 避免訊息誤收
 
 step:
 
